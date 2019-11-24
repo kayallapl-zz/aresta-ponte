@@ -55,7 +55,7 @@ int e_ponte(TG *g, int x, int y){
 }
 
 int main(){
-	// >> gcc -o main main.c TG.c TLSE.c
+	// >> gcc -o main aresta-ponte.c TG.c TLSE.c
 	TG * grafo = inicializa();
 	grafo = ins_no(grafo, 1);
 	grafo = ins_no(grafo, 2);
